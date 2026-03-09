@@ -3,7 +3,11 @@ import OrderSummary from "@/components/OrderSummary";
 import Link from "next/link";
 
 async function getCartData() {
-  const res = await fetch("http://localhost:3000/api/cart", {
+  const baseUrl = process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3000";
+
+  const res = await fetch(`${baseUrl}/api/cart`, {
     cache: "no-store",
   });
   return res.json();
