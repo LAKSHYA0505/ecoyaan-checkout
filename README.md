@@ -148,7 +148,7 @@ npm i -g vercel
 vercel
 ```
 
-Or connect your GitHub repo directly at [vercel.com](https://vercel.com) for automatic deployments on every push.
+ [vercel.com](https://vercel.com) 
 
 ---
 
