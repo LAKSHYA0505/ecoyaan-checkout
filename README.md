@@ -9,9 +9,17 @@ A simplified, full-stack checkout experience built with **Next.js App Router**, 
 
 ## 📸 Screenshots
 
-| Cart | Shipping | Payment | Order Success |
-|------|----------|---------|---------------|
-| Product list with +/- controls | Form with validation | Coupon + payment method | Cancel order flow |
+### Cart
+![Cart Page](public/screenshots/cart.png)
+
+### Shipping Address
+![Shipping Page](public/screenshots/shipping.png)
+
+### Payment
+![Payment Page](public/screenshots/payment.png)
+
+### Order Success
+![Order Success](public/screenshots/success.png)
 
 ---
 
