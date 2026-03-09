@@ -139,16 +139,8 @@ This is a small addition but reflects how I think about UX gaps beyond the immed
 ## 📦 Deployment
 
 This app is deployed on **Vercel** — the recommended platform for Next.js.
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
 ```
-
- [vercel.com](https://vercel.com) 
+ [vercel.com](https://ecoyaan-checkout-inky.vercel.app/) 
 
 ---
 
